@@ -1,0 +1,23 @@
+{
+  "name": "fanfoot-api",
+  "version": "1.0.0",
+  "description": "Fantasy football api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/AF-files/fanfoot.api.git"
+    },
+  "author": "Aaron Ferry",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "depcheck": "^0.6.9",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9",
+    "nodemon": "^1.18.3"
+  }
+}
