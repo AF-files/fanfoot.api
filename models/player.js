@@ -3,6 +3,7 @@ var Schema = mongoose.Schema;
 
 var player = new Schema({
     name: String,
+    position: String,
     price: Number,
     points: {type: Number, default: 0}
 });
